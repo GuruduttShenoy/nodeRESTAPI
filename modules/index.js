@@ -8,5 +8,4 @@ class Module {
         new productController(this.app)
     }
 }
-
 module.exports = Module

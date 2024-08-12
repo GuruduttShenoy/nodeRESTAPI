@@ -12,7 +12,7 @@ class DBConnection {
                 database:process.env.database,
                 options: {
                     trustServerCertificate: true,
-                    //prefixing + to convert it to integer
+                    //prefixing + to convert the port to integer
                     port:+process.env.port
                 }
             })
