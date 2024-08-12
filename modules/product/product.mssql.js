@@ -17,7 +17,6 @@ class ProductMSSql {
         .execute("addProduct")
     }
     async updateProduct(prod) {
-        console.log("inside update and params are",prod)
         const conn = await mssqlcon.getConnection()
         const res = await conn.request()
         .input("product_id", prod.product_id)
@@ -33,6 +32,15 @@ class ProductMSSql {
         const res = await conn.request()
         .input("product_id", id)
         .execute("deleteProduct")
+    }
+
+    async findProductById(id) {
+        const conn = await mssqlcon.getConnection();
+        const res = await conn.request()
+        .input("product_id", id)
+        .execute("findProductById")
+
+        return res.recordset;
     }
 }
 
