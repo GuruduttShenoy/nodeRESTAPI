@@ -35,7 +35,7 @@ Notes: We can setup any password that we like in place of `dockerStrongPwd123` i
 
 7. After this step , you can create a db with a desired name
 
-8. Run the below commands against the db to create a table and stored procs
+8. Run the below commands against the db to create table and stored procs
 
 
 <h3>Script to create table</h3>
