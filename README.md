@@ -6,9 +6,6 @@
 
 3. run npm i to install dependencies
 
-Postman Collection for testing
-
-[Product Inventory.postman_collection.json](https://github.com/user-attachments/files/16577585/Product.Inventory.postman_collection.json)
 
 <h2>Steps to setup DB</h2>
 
@@ -33,9 +30,21 @@ Notes: We can setup any password that we like in place of `dockerStrongPwd123` i
 `https://learn.microsoft.com/en-us/azure-data-studio/download-azure-data-studio?tabs=win-install%2Cwin-user-install%2Credhat-install%2Cwindows-uninstall%2Credhat-uninstall`
 
 6. Once installed click on new connection and enter the required parameters to connect to sql server
+   ![Screenshot 2024-08-12 at 5 50 56 pm](https://github.com/user-attachments/assets/21a86679-92d9-4df5-b7ec-65cdaa46320b)
+
 
 7. After this step , you can create a db with a desired name
 
 8. Run the below commands against the db to create a table and stored procs
 
 
+
+[Table Creation script.zip](https://github.com/user-attachments/files/16578832/Table.Creation.script.zip)
+[StoredProc_GenerationScripts.zip](https://github.com/user-attachments/files/16578837/StoredProc_GenerationScripts.zip)
+
+9. Create some sample data inside the product table
+10. modify the .env file and fill the details of your db name, database user, database password, host etc
+11. Once done, run the below command to spin up the api server
+    `node index.js`
+12. install postman and import the postman collection to get the endpoints for getAllProducts, deleteProduct, updateProduct, fetchProductById.
+    [Product Inventory.postman_collection.json](https://github.com/user-attachments/files/16577585/Product.Inventory.postman_collection.json)
