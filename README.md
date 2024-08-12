@@ -38,8 +38,9 @@ Notes: We can setup any password that we like in place of `dockerStrongPwd123` i
 8. Run the below commands against the db to create a table and stored procs
 
 
-
+<p>Script to create table</p>
 [Table Creation script.zip](https://github.com/user-attachments/files/16578832/Table.Creation.script.zip)
+<p>Scripts to create stored proc</p>
 [StoredProc_GenerationScripts.zip](https://github.com/user-attachments/files/16578837/StoredProc_GenerationScripts.zip)
 
 9. Create some sample data inside the product table
