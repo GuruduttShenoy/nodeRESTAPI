@@ -46,5 +46,10 @@ Notes: We can setup any password that we like in place of `dockerStrongPwd123` i
 10. modify the .env file and fill the details of your db name, database user, database password, host etc
 11. Once done, run the below command to spin up the api server
     `node index.js`
-12. install postman and import the postman collection to get the endpoints for getAllProducts, deleteProduct, updateProduct, fetchProductById.
+    <img width="786" alt="Screenshot 2024-08-12 at 6 04 54 pm" src="https://github.com/user-attachments/assets/63d52bd4-481f-4693-933c-a4a2be6f6f61">
+
+13. install postman and import the postman collection to get the endpoints for getAllProducts, deleteProduct, updateProduct, fetchProductById.
     [Product Inventory.postman_collection.json](https://github.com/user-attachments/files/16577585/Product.Inventory.postman_collection.json)
+
+    ![Screenshot 2024-08-12 at 6 05 43 pm](https://github.com/user-attachments/assets/75ab65b9-b247-4365-b83a-0f81a48438b0)
+
