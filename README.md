@@ -1,12 +1,12 @@
 <h1>About this project</h1>
-This is a node js app that creates REST APIs for performing CRUD operations and uses MYSQL DB at the backend.
+<h2>This is a node js app that creates REST APIs for performing CRUD operations and uses MYSQL DB at the backend</h2>
 
 **libraries used:**
-dotenv
-express
-http
-https
-mysql
+1. dotenv
+2. express
+3. http
+4. https
+5. mysql
 
 
 <h1>Steps to spin up the api on local</h1>
