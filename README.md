@@ -1,3 +1,14 @@
+<h1>About this project</h1>
+This is a node js app that creates REST APIs for performing CRUD operations and uses MYSQL DB at the backend.
+
+**libraries used:**
+dotenv
+express
+http
+https
+mysql
+
+
 <h1>Steps to spin up the api on local</h1>
 
 1. Clone the repo into your local folder
